@@ -27,4 +27,4 @@ def predict():
     return render_template('index.html', prediction_text='The loan is good: {} '.format(output))
     
 if __name__=='__main__':
-    app.run(5002,debug=True)
+    app.run(5005,debug=True)
